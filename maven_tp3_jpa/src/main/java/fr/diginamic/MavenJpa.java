@@ -16,6 +16,8 @@ public class MavenJpa {
 			
 		TypedQuery<Maire> query = em.createQuery("from Maire", Maire.class);
 		System.out.println("Number of maire : " + query.getResultList().size());
+		
+		System.exit(0);
 	}
 
 }
